@@ -1,0 +1,20 @@
+.rm-login-success {
+    height: 100%;
+    padding: 20px;
+    min-height: calc(100vh - 229px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+
+    &__logo {
+        max-width: 200px;
+        margin-bottom: 2vh;
+    }
+
+    p {
+        @include body-large;
+    }
+
+}

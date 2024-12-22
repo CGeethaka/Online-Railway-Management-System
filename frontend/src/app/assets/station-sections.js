@@ -1,0 +1,107 @@
+export const statioSections = [
+    {
+        title: 'Section 1',
+        key: 'sec-1',
+        children: [
+            { key: "000", title: "Maradana" },
+            { key: "001", title: "Colombo Fort" },
+            { key: "002", title: "Secretartat Halt" },
+            { key: "003", title: "Kompnnavidiya" },
+            { key: "004", title: "Kollupitiya" },
+            { key: "005", title: "Bambalapitiya" },
+            { key: "006", title: "Wellawatte" },
+            { key: "007", title: "Dehiwala" },
+            { key: "008", title: "Mount Laviniya" },
+        ]
+    },
+    {
+        title: 'Section 2',
+        key: 'sec-2',
+        children: [
+            { key: "009", title: "Rathmalana" },
+            { key: "010", title: "Angulana" },
+            { key: "011", title: "Lunawa" },
+            { key: "012", title: "Moratuwa" },
+        ]
+    },
+    {
+        title: 'Section 3',
+        key: 'sec-3',
+        children: [
+            { key: "013", title: "Koralawella" },
+            { key: "014", title: "Egodauyana" },
+            { key: "015", title: "Panadura" },
+            { key: "016", title: "Pinwatte" },
+            { key: "017", title: "Wadduwa" },
+            { key: "018", title: "Train Halt 01" },
+            { key: "019", title: "Kalutara North" },
+            { key: "020", title: "Kaluthara South" },
+        ]
+    },
+    {
+        title: 'Section 4',
+        key: 'sec-4',
+        children: [
+            { key: "021", title: "Katukurunda" },
+            { key: "022", title: "Payagala North" },
+            { key: "023", title: "Payagala south" },
+            { key: "024", title: "Maggona" },
+            { key: "025", title: "Beruwala" },
+            { key: "026", title: "Hettimulla" },
+            { key: "027", title: "Aluthgama" },
+        ]
+    },
+    {
+        title: 'Section 5',
+        key: 'sec-5',
+        children: [
+            { key: "028", title: "Bentota" },
+            { key: "029", title: "Induruwa" },
+            { key: "030", title: "Maha Induruwa" },
+            { key: "031", title: "kosgoda" },
+            { key: "032", title: "Piyagama" },
+            { key: "033", title: "Ahungalle" },
+            { key: "034", title: "Patagamgoda" },
+            { key: "035", title: "Balapitiya" },
+            { key: "036", title: "Andadola" },
+            { key: "037", title: "Kandegoda" },
+            { key: "038", title: "Ambalangoda" },
+            { key: "039", title: "Madampagama" },
+            { key: "040", title: "Akurala" },
+            { key: "041", title: "Kahawa" },
+            { key: "042", title: "Telwatte" },
+            { key: "043", title: "Seenigama" },
+            { key: "044", title: "Hikkaduwa" },
+            { key: "045", title: "Thiranagama" },
+            { key: "046", title: "Kumarakanda" },
+            { key: "047", title: "Dodanduwa" },
+            { key: "048", title: "Rathgama" },
+            { key: "049", title: "Boossa" },
+            { key: "050", title: "Ginthota" },
+            { key: "051", title: "Piyadigama" },
+            { key: "052", title: "Richmond Hill" },
+            { key: "053", title: "Galle" },
+        ]
+    },
+    {
+        title: 'Section 6',
+        key: 'sec-6',
+        children: [
+            { key: "054", title: "Katugoda" },
+            { key: "055", title: "Unawatuna" },
+            { key: "056", title: "Taple" },
+            { key: "057", title: "Habaraduwa" },
+            { key: "058", title: "Koggala" },
+            { key: "059", title: "Kathaluwa" },
+            { key: "060", title: "Ahangama" },
+            { key: "061", title: "Midigama" },
+            { key: "062", title: "Kumbalgama" },
+            { key: "063", title: "weligama" },
+            { key: "064", title: "Polwathumodara" },
+            { key: "065", title: "Mirissa" },
+            { key: "066", title: "Kamburugamuwa" },
+            { key: "067", title: "Walgama" },
+            { key: "068", title: "Matara" },
+        ]
+    },
+];

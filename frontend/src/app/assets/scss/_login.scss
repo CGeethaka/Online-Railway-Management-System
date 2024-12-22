@@ -1,0 +1,14 @@
+.rm-login {
+    height: 100%;
+    // padding: 20px;
+    min-height: calc(100vh - 229px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &__google-icn {
+        max-width: 350px;
+        cursor: pointer;
+    }
+}

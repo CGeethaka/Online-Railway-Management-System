@@ -1,0 +1,52 @@
+const express = require("express");
+const morgan = require("morgan");
+const helmet = require("helmet");
+const cors = require("cors");
+const swaggerUi = require('swagger-ui-express');
+const bodyParser = require("body-parser");
+require("dotenv").config();
+const cookieSession = require("cookie-session");
+require("./auth/passport");
+require("./auth/passportGoogleSSO");
+
+require("./models/user");
+
+const middlewares = require("./middlewares");
+const api = require("./api");
+const passport = require("passport");
+
+const app = express();
+const swaggerSpecs = require("./swagger/swagger");
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.use(morgan("dev"));
+app.use(helmet());
+app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(express.json());
+
+app.use(
+  cookieSession({
+    maxAge: 24 * 60 * 60 * 1000,
+    keys: [process.env.COOKIE_KEY],
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.get("/", (req, res) => {
+  res.json({
+    message: "🦄🌈✨👋🌎🌍🌏✨🌈🦄",
+  });
+});
+
+app.use("/api/v1", api);
+// app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+
+app.use(middlewares.notFound);
+app.use(middlewares.errorHandler);
+// Use the Swagger UI middleware
+
+module.exports = app;

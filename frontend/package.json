@@ -1,0 +1,66 @@
+{
+  "name": "react-sso",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@react-google-maps/api": "^2.19.2",
+    "@react-oauth/google": "^0.11.1",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@stripe/react-stripe-js": "^1.10.0",
+    "@stripe/stripe-js": "^1.35.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/antd": "^1.0.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "antd": "^5.7.3",
+    "axios": "^0.21.1",
+    "dayjs": "^1.11.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-button": "^0.7.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux-logger": "^3.0.6",
+    "styled-components": "^5.3.0",
+    "typescript": "~4.1.5"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "env-cmd -f ./.env react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux-logger": "^3.0.8",
+    "@types/styled-components": "^5.1.9",
+    "env-cmd": "^10.1.0",
+    "react-error-overlay": "6.0.9"
+  }
+}

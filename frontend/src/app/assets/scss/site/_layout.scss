@@ -1,0 +1,128 @@
+.rm-common {
+    min-height: 100vh;
+
+    .ant-layout-header {
+        overflow: hidden;
+    }
+
+
+    .ant-layout-header {
+        padding: 0 15px;
+        border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+        background: transparent;
+    }
+
+    .ant-menu {
+        >li {
+            &:first-of-type {
+                margin-right: auto;
+
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .rm-common-content {
+        margin: 50px 20px;
+        min-height: calc(100vh - 229px);
+    }
+
+    .rm-blocks {
+        .ant-card {
+            margin: 10px 15px 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 578px) {
+    .rm-common {
+
+        .ant-menu {
+            >li {
+                &:first-of-type {
+                    img {
+                        height: 30px;
+                    }
+                }
+            }
+        }
+
+        .ant-layout-header {
+            padding: 0 15px;
+
+        }
+
+        .rm-common-content {
+            min-height: calc(100vh - 229px);
+            margin: 50px 20px;
+        }
+
+        .rm-blocks {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .ant-card {
+                width: 300px;
+                height: 300px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .rm-logo {
+        height: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 578px) {
+
+    .rm-common {
+
+        .ant-menu {
+            >li {
+                padding-right: 0;
+
+                &::after {
+                    display: none;
+                }
+
+                &:first-of-type {
+                    .ant-menu-title-content {
+                        display: block;
+                    }
+
+                    img {
+                        width: 130px;
+                    }
+                }
+
+                .ant-menu-title-content {
+                    display: inline-block;
+                    width: 0;
+                    color: transparent;
+
+                    a {
+                        display: inline-block;
+                        width: 0;
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .rm-logo {
+        width: 130px;
+    }
+
+    .ant-table-content,
+    .rm-map-wrapper {
+        overflow-x: auto;
+    }
+
+
+}
