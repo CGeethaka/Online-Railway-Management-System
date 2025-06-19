@@ -1,4 +1,4 @@
-Project Description
+##Project Description
 
 The Online Railway Management System addresses inefficiencies in traditional railway operations through a digital platform with the following features:
 
@@ -46,21 +46,21 @@ Repository Contents
 
 
 
-22086780_AD_CW1.pdf: The coursework document detailing the system's abstract, requirements, architecture, design (with UML diagrams), and implementation plan.
-
-
-
-Source Code: Located in the repository's directories (e.g., /frontend, /backend, or similar structure). Includes:
 
 
 
 
-
-Frontend application built with Next.js.
-
+##Source Code: Located in the repository's directories (e.g., /frontend, /backend, or similar structure). Includes:
 
 
-Backend APIs developed with Express.js and Node.js.
+
+
+
+##Frontend application built with Next.js.
+
+
+
+##Backend APIs developed with Express.js and Node.js.
 
 
 
@@ -76,65 +76,56 @@ How to Use
 
 
 
-Review the Documentation:
+
+##Key sections:
 
 
 
 
 
-Open 22086780_AD_CW1.pdf to understand the system's objectives, requirements, user stories, architecture, and design.
+##Chapter 2: Requirements Specification (functional/non-functional requirements, user stories).
 
 
 
-Key sections:
+##Chapter 3: System Architecture (client-server and microservices).
 
 
 
-
-
-Chapter 2: Requirements Specification (functional/non-functional requirements, user stories).
-
-
-
-Chapter 3: System Architecture (client-server and microservices).
+##Chapter 4: Design Specification (UML diagrams for use cases, sequences, classes).
 
 
 
-Chapter 4: Design Specification (UML diagrams for use cases, sequences, classes).
+##Chapter 5: Implementation overview.
 
 
 
-Chapter 5: Implementation overview.
-
-
-
-Explore the Source Code:
+##Explore the Source Code:
 
 
 
 
 
-Navigate to the source code directories (e.g., /frontend, /backend).
+##Navigate to the source code directories (e.g., /frontend, /backend).
 
 
 
-Review key files for implementation details, such as API endpoints (/backend/api/trains) or frontend components (/frontend/pages/ticket-booking.js).
+##Review key files for implementation details, such as API endpoints (/backend/api/trains) or frontend components (/frontend/pages/ticket-booking.js).
 
 
 
-[Customize: Add specific file paths or module descriptions if known.]
+##[Customize: Add specific file paths or module descriptions if known.]
 
 
 
-Run the Application (if implementing locally):
+##Run the Application (if implementing locally):
 
 
 
 
 
-Follow the setup instructions below to set up and run the system.
+##Follow the setup instructions below to set up and run the system.
 
-Setup Instructions
+##Setup Instructions
 
 To run the Online Railway Management System locally, follow these steps (based on the planned implementation in the coursework):
 
@@ -142,14 +133,14 @@ To run the Online Railway Management System locally, follow these steps (based o
 
 
 
-Clone the Repository:
+##Clone the Repository:
 
 git clone <your-repository-url>
 cd <repository-name>
 
 
 
-Install Dependencies:
+###Install Dependencies:
 
 
 
@@ -194,7 +185,7 @@ module.exports = {
 
 
 
-Run the Application:
+##Run the Application:
 
 
 
@@ -232,7 +223,7 @@ Configure APIs for payment gateways, GPS tracking, and notification services in 
 
 
 
-Testing:
+##Testing:
 
 
 
@@ -244,7 +235,7 @@ Run unit and integration tests (if included, e.g., npm test in /backend or /fron
 
 Refer to Section 8 of the coursework document for testing strategies.
 
-Purpose
+##Purpose
 
 This project demonstrates advanced software engineering practices, including:
 
@@ -268,7 +259,7 @@ Emphasis on non-functional requirements like performance, security, usability, a
 
 The repository serves as an academic submission and a reference for designing scalable railway management systems.
 
-Team Members
+##Team Members
 
 
 
@@ -284,11 +275,8 @@ Perinbam Nanthini (LMU ID: 22086778)
 
 P.P.D Charith Geethaka (LMU ID: 22086780)
 
-Contact
 
-For questions or feedback, please contact the team via [your preferred contact method, e.g., university email]. For academic inquiries, reach out to the module leader at London Metropolitan University.
-
-Notes
+##Notes
 
 
 
@@ -304,7 +292,7 @@ Ensure the repository's visibility (public/private) complies with academic guide
 
 [Customize: Add any specific notes, e.g., known issues, missing dependencies, or deployment status.]
 
-Future Improvements
+##Future Improvements
 
 
 
