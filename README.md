@@ -1,4 +1,4 @@
-##Project Description
+Project Description
 
 The Online Railway Management System addresses inefficiencies in traditional railway operations through a digital platform with the following features:
 
@@ -20,7 +20,7 @@ Passenger Management: Manages passenger profiles, booking history, loyalty progr
 
 Revenue Management: Tracks ticket sales, promotions, and discounts, generating financial reports for strategic planning.
 
-##Technology Stack
+Technology Stack
 
 
 
@@ -46,7 +46,11 @@ Repository Contents
 
 
 
-##Source Code: Located in the repository's directories (e.g., /frontend, /backend, or similar structure). Includes:
+22086780_AD_CW1.pdf: The coursework document detailing the system's abstract, requirements, architecture, design (with UML diagrams), and implementation plan.
+
+
+
+Source Code: Located in the repository's directories (e.g., /frontend, /backend, or similar structure). Includes:
 
 
 
@@ -66,7 +70,7 @@ MySQL database schema and setup scripts (if included).
 
 [Customize this section: Specify folder names or key files, e.g., /src/backend/server.js, /src/frontend/pages/index.js, or database/schema.sql.]
 
-##How to Use
+How to Use
 
 
 
@@ -263,3 +267,59 @@ Modern web development with a scalable client-server and microservices architect
 Emphasis on non-functional requirements like performance, security, usability, and accessibility.
 
 The repository serves as an academic submission and a reference for designing scalable railway management systems.
+
+Team Members
+
+
+
+
+
+L Saneera Lakith Silva (LMU ID: 22086775)
+
+
+
+Perinbam Nanthini (LMU ID: 22086778)
+
+
+
+P.P.D Charith Geethaka (LMU ID: 22086780)
+
+Contact
+
+For questions or feedback, please contact the team via [your preferred contact method, e.g., university email]. For academic inquiries, reach out to the module leader at London Metropolitan University.
+
+Notes
+
+
+
+
+
+The source code is included but may require configuration for local execution (e.g., environment variables, external service keys).
+
+
+
+Ensure the repository's visibility (public/private) complies with academic guidelines to prevent unintended sharing.
+
+
+
+[Customize: Add any specific notes, e.g., known issues, missing dependencies, or deployment status.]
+
+Future Improvements
+
+
+
+
+
+Enhance real-time train tracking with WebSocket integration.
+
+
+
+Implement advanced analytics for revenue management.
+
+
+
+Add support for additional payment gateways and multi-currency transactions.
+
+
+
+Refer to Section 12 of the coursework document for detailed future work plans.
