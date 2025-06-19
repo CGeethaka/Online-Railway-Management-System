@@ -1,4 +1,4 @@
-Project Description
+##Project Description
 
 The Online Railway Management System addresses inefficiencies in traditional railway operations through a digital platform with the following features:
 
@@ -20,7 +20,7 @@ Passenger Management: Manages passenger profiles, booking history, loyalty progr
 
 Revenue Management: Tracks ticket sales, promotions, and discounts, generating financial reports for strategic planning.
 
-Technology Stack
+##Technology Stack
 
 
 
@@ -46,11 +46,7 @@ Repository Contents
 
 
 
-22086780_AD_CW1.pdf: The coursework document detailing the system's abstract, requirements, architecture, design (with UML diagrams), and implementation plan.
-
-
-
-Source Code: Located in the repository's directories (e.g., /frontend, /backend, or similar structure). Includes:
+##Source Code: Located in the repository's directories (e.g., /frontend, /backend, or similar structure). Includes:
 
 
 
@@ -70,7 +66,7 @@ MySQL database schema and setup scripts (if included).
 
 [Customize this section: Specify folder names or key files, e.g., /src/backend/server.js, /src/frontend/pages/index.js, or database/schema.sql.]
 
-How to Use
+##How to Use
 
 
 
